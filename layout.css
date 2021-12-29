@@ -1,0 +1,284 @@
+body{
+	margin:0px;
+	padding: 0px;
+	font-size: 10px;
+	font-family: arial;
+}
+
+header{
+	margin: 0;
+	background-color: gray;
+	width:100%;
+	height:50px;
+}
+.cabeçalho{
+	font-size: 25px;
+	font-family: arial;
+	text-align: center;
+	margin: 0;
+	position: absolute;
+	top: 10px;
+	left: 425px;
+}
+ul{
+	margin: 0;
+}
+.menu{
+	list-style: none;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-content: center;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+	right: 55px;
+}
+.menu li{
+	margin: 10px;
+	border: 2px solid gray; 
+	background-color: gray;
+}
+.menu li:hover{
+	background-color: #67636b;
+}
+#nav_site{
+	width: 100%;
+	height:45px;
+	background-color: LightGray;
+	font-size: 20px;
+	text-align: center;
+}
+a{
+	text-decoration: none;
+	color: black;
+}
+p{
+	margin: 0;
+	padding-top: 48px;
+}
+article{
+	text-align: center;
+	width:100%;
+	height: 950px;
+	background-image: url(imagemdefundo/ceunoite.jpg);
+	background-size: cover;
+	font-size: 25px;
+	font-family: roboto;
+}
+footer{
+	font-size: 15px;
+	text-align: right;
+	width: 100%;
+	height:50px;
+	background-color: gray;
+}
+.copyright{
+	padding-top: 17px;
+	padding-right: 5px;
+	text-align: right;
+}
+#logo_fatec{
+	float: left;
+	height: 35px;
+	width: 6%;
+	margin-left: 10px;
+	margin-top: 7px;
+}
+.artigo{
+	border: 2px rgba(106, 90, 205, 0.6);
+	background-color: rgba(106, 90, 205, 0.6);
+	width: 95%;
+	position: relative;
+	left: 30px;
+	text-align: center;
+	padding-bottom: 50px;
+}
+#body_manutencao{
+	background-color: cyan;
+}
+#h1_manutencao{
+	text-align: center;
+}
+#youtube_logo{
+	float: left; 
+	height: 35px;
+	width: 4%;
+	margin-left: 20px;
+	margin-top: 7px;
+}
+#facebook_logo{
+	float: left; 
+	height: 35px;
+	width: 4%;
+	margin-left: 20px;
+	margin-top: 7px;
+}
+.artigo_fatec{
+	border: 2px rgba(106, 90, 205, 0.6);
+	background-color: rgba(106, 90, 205, 0.6);
+	width: 77%;
+	position: relative;
+	left: 5px;
+	bottom: 10px;
+	text-align: justify;
+}
+#aviao{
+	float: left; 
+	height: 300px;
+	width: 30%;
+	margin-left: 20px;
+	margin-top: 7px;
+}
+#gamepad{
+	float: center; 
+	height: 300px;
+	width: 30%;
+	margin-left: 5px;
+	margin-top: 7px;
+}
+#musica{
+	float: right; 
+	height: 300px;
+	width: 30%;
+	margin-right: 20px;
+	margin-top: 7px;
+}
+#minha_foto{
+	float: center;
+	width: 50%;
+	margin-top: 20px;
+}
+.icones{
+	font-size: 10px;
+}
+#article_fatec{
+	text-align: center;
+	width:100%;
+	height: 500px;
+	background-image: url(imagemdefundo/ceunoite.jpg);
+	background-size: cover;
+	font-size: 25px;
+	font-family: roboto;
+}
+.mapa{
+	width: 96%; 
+	border: 5px rgb(68, 56, 138);
+	margin-left: 5px;
+	margin-right: 5px;
+	height: 280px;
+}
+aside{
+	border: 2px rgb(106, 90, 205);
+	background-color: rgba(106, 90, 205, 0.6);
+	position: absolute;
+	left: 1074px;
+	bottom: 92px;
+	width: 20%;
+	height: 432px;
+}
+.como_chegar{
+	font-size: 25px;
+	margin-top: 5px;
+	margin-left: 25px;
+}
+.cursos_e_professores{
+	font-size: 20px;
+	margin-bottom: 10px;
+	margin-left: 10px;
+}
+.cursos{
+	height: 3000px;
+}
+.tabela{
+	background-color: rgba(106, 90, 205, 0.6);
+	position: relative;
+	left: 150px;
+	text-align: justify;
+}
+.listacursos{
+	background-color: rgba(106, 90, 205, 0.6);
+	width: 50%;
+	position: relative;
+	left: 320px;
+}
+.semestres{
+	list-style: none;
+	align-content: center;
+	justify-content: center;
+	align-items: center;
+	border: 2px rgb(106, 90, 205);
+	background-color: rgba(106, 90, 205, 0.6);
+	width: 75%;
+	position: relative;
+	left: 150px;
+}
+.semestres li{
+	margin: 30px;
+	border:  rgba(106, 90, 205, 0.6);
+	background-color: rgba(106, 90, 205, 0.6);
+}
+.cartaovisita{
+	height: 150px;
+	float: center;
+}
+.listado1semestre{
+	list-style: none;
+	align-content: center;
+	justify-content: center;
+	align-items: center;
+	border: 2px rgb(106, 90, 205);
+	background-color: rgba(106, 90, 205, 0.6);
+	width: 75%;
+	position: relative;
+	left: 150px;
+}
+.artigolinks{
+	height: 1200px;
+}
+.listanomes{
+	list-style: none;
+	align-items: center;
+	border: 2px rgb(106, 90, 205);
+	background-color: rgba(106, 90, 205, 0.6);
+	width: 75%;
+	position: relative;
+	left: 150px;
+}
+.luftgold{
+	height: 500px;
+}
+.artigoprojetos{
+	margin: 50px;
+	margin-top: 0px;
+	padding-bottom: 50px;
+	border:  rgba(106, 90, 205, 0.6);
+	background-color: rgba(106, 90, 205, 0.6);
+}
+.sobremim{
+	padding-top: 30px;
+	margin-top: 0px;
+}
+.artigoaluno2{
+	border:  rgba(106, 90, 205, 0.6);
+	background-color: rgba(106, 90, 205, 0.6);
+	margin: 30px;
+	margin-top: 0px;
+	padding-bottom: 10px;
+	paddig-top: 0px;
+}
+.artigoaluno{
+	padding: 0px;
+	margin: 0px;
+	height: 1300px;
+}
+.video{
+	display: flex;
+    flex-direction: row;
+	margin-top: 25px;
+	margin-bottom: 25px;
+    height: 205px;
+    width: 50%;
+	position: relative;
+	left: 590px;
+}
