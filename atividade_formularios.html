@@ -1,0 +1,73 @@
+﻿<!DOCTYPE html>
+<html>
+    
+	<head> 
+        
+		<title>Atividade formulários</title>
+	
+	</head>
+	
+	<body>
+	    
+		<fieldset>
+			<legend>Registro do participante</legend>
+		<form method="post" action="">
+			Nome:
+			<input type="text" name="Nome" size="10" maxlength="30">
+			<br>
+			Senha:
+			<input type="password" name="Senha" size="10" maxlength="16">
+			<br>
+			Sexo:
+			<input type="radio" name="gender" value="male"> Masculino
+			<input type="radio" name="gender" value="female"> Feminino
+		</fieldset>
+			<br>
+			Qual tipo de música você gosta?
+			<select name="Música">
+				<option selected> Selecione o seu estilo musical
+				<option> Funk
+				<option> Jazz
+				<option> Rock
+				<option> Classíca
+				<option> Metal
+			</select>
+			<br>
+			Dentre essas opcões, o que você gosta?
+			<br>
+			<input type="checkbox" name="assunto"> Tecnologia
+			<br>
+			<input type="checkbox" name="assunto"> Aviação
+			<br>
+			<input type="checkbox" name="assunto"> Carros
+			<br>
+			<input type="checkbox" name="assunto"> Livros
+			<br>
+			<input type="checkbox" name="assunto"> Saúde
+			<br>
+			<input type="checkbox" name="assunto"> Política
+			<br>
+			<input type="checkbox" name="assunto"> Esportes
+			<br>
+			<input type="checkbox" name="assunto"> Novelas
+			<br>
+			O que mais quer falar sobre você mesmo?
+			<textarea name="Informação adicional" rows="15" cols="40">
+			</textarea>
+		<fieldset>
+			<input type="reset" name="Limpar tudo" value="Limpar">
+			<input type="submit" name="Enviar" value="Enviar">
+		</fieldset>
+		
+		
+		
+		
+		</form>
+		
+		<p>
+		<a href="../index.html" title="Voltar" target="_self">
+			Voltar para a página inicial!
+		</a></p>
+	</body>
+
+</html>	
